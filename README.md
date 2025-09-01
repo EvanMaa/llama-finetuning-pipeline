@@ -18,6 +18,29 @@ Features
 * Tokenization and preprocessing pipeline
 * Training scripts
 
+Tech Stack
+
+This project brings together tools from deep learning, data engineering, and API integration:
+
+Python 3.11+
+ – Core programming language
+PyTorch
+ – Deep learning framework for model fine-tuning
+Hugging Face Transformers
+ – Pretrained LLaMA and utilities for tokenization, training, and inference
+PEFT / LoRA
+ – Parameter-efficient fine-tuning techniques for large models
+ BitsAndBytes
+ – 8-bit/4-bit model quantization for memory-efficient training on limited GPU resources
+PRAW
+ – Python Reddit API Wrapper for data scraping
+python-dotenv
+ – Environment variable management for secure API credentials
+Datasets
+ – Efficient dataset loading and preprocessing
+SQLite / JSONL
+ – Lightweight storage of collected Reddit data
+ 
 Environment Setup and Reddit API
 * This project requires access to the Reddit API to scrape data from subreddits. You will need to create a .env file to securely store your credentials.
 * Look at requirements.txt for all required libraries, note: this is configured for an rtx 5080 depending on your gpu or cpu this may run very slowly.
@@ -51,6 +74,7 @@ i do think it's kinda weird though that yor friend wants you to make and pay for
 You: What is a tensor?
 
 Assistant: A tensor is a mathematical object that can be used to represent data in a multi-dimensional array. It's similar to a matrix, but a more flexible and generalization thereof. Tensors are used widely in machine learning and other fields where data has multiple dimensions. For example, you could use a 3D tensor to represent an image, with each "pixel" having three values for red, green, and blue. 
+
 
 
 
