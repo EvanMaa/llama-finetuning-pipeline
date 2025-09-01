@@ -32,6 +32,7 @@ Assistant: A compiler is a program that translates code from one programming lan
 An interpreter, on the other hand, is a program that executes or interprets code line by line instead of compiling it ahead of time. It takes the source code and performs the commands directly without converting it into another format. This means that the code needs to be readable by the interpreter at all times; it cannot be encrypted or obfuscated.
 One of the main differences between compilers and interpreters is how they handle errors. When a compiler encounteres an error in the code, it will usually generate an error message and stop processing the rest of the code until the error is fixed. An interpreter, on the other hand, will continueto execute the code up until the point of the error, and then stop and display an error message.
 
+---
 
 (train on amitheasshole)
 
@@ -41,10 +42,12 @@ After the party, I gave her the receipt around $150 and thats just ingredients I
 Assistant: nobody is forcing you to do this. if you don't want to make or share your food, then DON"T! simple as that.
 i do think it's kinda weird though that yor friend wants you to make and pay for your own food when hosting an entire event. that doesn't seem very fair...but maybe they are trying to be nice by making up for it by throwing in some extra cash? i wouldn't know.
 
+---
 
 (trained on datascience)
 
 You: What is a tensor?
 
 Assistant: A tensor is a mathematical object that can be used to represent data in a multi-dimensional array. It's similar to a matrix, but a more flexible and generalization thereof. Tensors are used widely in machine learning and other fields where data has multiple dimensions. For example, you could use a 3D tensor to represent an image, with each "pixel" having three values for red, green, and blue. 
+
 
