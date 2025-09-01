@@ -24,6 +24,8 @@ Environment Setup and Reddit API
 
 Example Prompts:
 
+---
+
 (trained on askprogramming)
 
 You: Explain to me the difference between a compiler and interpreter
@@ -49,5 +51,6 @@ i do think it's kinda weird though that yor friend wants you to make and pay for
 You: What is a tensor?
 
 Assistant: A tensor is a mathematical object that can be used to represent data in a multi-dimensional array. It's similar to a matrix, but a more flexible and generalization thereof. Tensors are used widely in machine learning and other fields where data has multiple dimensions. For example, you could use a 3D tensor to represent an image, with each "pixel" having three values for red, green, and blue. 
+
 
 
